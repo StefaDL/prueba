@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=" UTF-8">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+
+ </head>
+<body>
+    <header><h1 class="titulo">Calculadora Digital</h1></header>
+    <nav  id="barra_nav" class="barra_navegacion">
+        <ul>
+            <li> <a href="index.html">Principal</a></li>
+            <li> <a href="table.html">Tabla</a></li>
+            <li> <a href="formulario.html">Formulario</a></li>
+            <li> <a href="calcular_edad.html">Edad</a></li>
+            <li> <a href="calculadora.html">calculadora</a></li>
+            
+        </ul>
+    </nav>
+    <div class="operaciones">
+        <div  class="estilo_suma">
+            <h2 class="titulo2">Sumar</h2>
+            <p>Numero 1:<input type="text"id="suma1"></p>
+            <p>Numero 2:<input type="text"id="suma2"></p>
+            <input type="button" value="Calcular" onclick="Sumar()">
+            <p id="resultado"></p>    
+    <script>
+        function Sumar(){
+        var a= document.getElementById("suma1").value;
+        var b= document.getElementById("suma2").value;
+        var c = parseFloat(a) + parseFloat(b);
+        document.getElementById("resultado").innerHTML= "El resultado de la suma es:"+c;     
+}
+    </script>
+        </div>
+           
+        <div  class="estilo_resta">
+            <h2 class="titulo2">Restar</h2>
+            <p>Numero 1:<input type="text"id="resta1"></p>
+            <p>Numero 2:<input type="text"id="resta2"></p>
+            <input type="button" value="Calcular" onclick="Restar()">
+            <p id="resultador"></p>    
+    <script>
+        function Restar(){
+        var a= document.getElementById("resta1").value;
+        var b= document.getElementById("resta2").value;
+        var d = parseFloat(a) - parseFloat(b);
+        document.getElementById("resultador").innerHTML= "El resultado de la resta es:"+d;     
+}
+    </script>
+        </div>
+        <div  class="estilo_mul">
+            <h2 class="titulo2">Multiplicar</h2>
+            <p>Numero 1:<input type="text"id="mul1"></p>
+            <p>Numero 2:<input type="text"id="mul2"></p>
+            <input type="button" value="Calcular" onclick="Multiplicar()">
+            <p id="resultadoR"></p>    
+    <script>
+        function Multiplicar(){
+        var a= document.getElementById("mul1").value;
+        var b= document.getElementById("mul2").value;
+        var e = parseFloat(a) * parseFloat(b);
+        document.getElementById("resultadoR").innerHTML= "El resultado de la multiplicacion es:"+e;     
+}
+    </script>
+        </div>
+        <div  class="estilo_divi">
+            <h2 class="titulo2">Division</h2>
+            <p>Numero 1:<input type="text"id="divi1"></p>
+            <p>Numero 2:<input type="text"id="divi2"></p>
+            <input type="button" value="Calcular" onclick="Division()">
+            <p id="resultadoL"></p>    
+    <script>
+        function Division(){
+        var a= document.getElementById("divi1").value;
+        var b= document.getElementById("divi2").value;
+        var f = parseFloat(a) / parseFloat(b);
+        document.getElementById("resultadoL").innerHTML= "El resultado de la division es:"+f;     
+}
+    </script>
+        </div>
+    </div>
+</body>
+</html>

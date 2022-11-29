@@ -1,0 +1,34 @@
+.formulario{
+    
+    background-color: aquamarine;
+    width: 35%;
+    margin: 25px auto;
+    padding-left: 1.5px;
+    padding-right: 1.5%;
+    padding-bottom: 25px;
+  
+}
+div{
+    padding-left: 50px;
+    padding-top: 15px;
+
+}
+comentario{
+    display: block;
+    padding-right: 50%;
+}
+msg{
+    padding-right: 50%;
+}
+.pie{
+    height: 120px;
+    background-color: aqua;
+}
+.img_footer{
+    height: 120px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 70%;
+    color: white;
+
+}

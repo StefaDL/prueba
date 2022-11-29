@@ -1,0 +1,46 @@
+.estilo_suma{
+    background: linear-gradient( red,yellow,blue);
+    font-family: fantasy;
+    
+    
+}
+.estilo_resta{
+    background: linear-gradient( blue,#208B94);
+    font-family: fantasy;
+    
+}
+.estilo_mul{
+    background: linear-gradient(#20946C,#4C2094);
+    font-family: fantasy;
+}
+.estilo_divi{
+    background: linear-gradient(#6A2094,#942056);
+    font-family: fantasy;
+}
+.operaciones{
+    background-color: black;
+    font-family: fantasy;
+}
+.titulo{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background: linear-gradient( yellow,#2C9420,#944720);
+    font-size:80px;
+    width: 100%;
+    
+
+
+}
+.titulo2{
+    text-align: center;
+    color: rgb(47, 41, 34);
+}
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    margin: 25px;
+    text-justify: auto;
+    
+
+}

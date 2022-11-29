@@ -1,0 +1,22 @@
+.datos{
+    color:black ;
+    background-color: #EC7063;
+    
+    font-family: fantasy;
+    font:  50px;
+    margin: 20px;
+    border-style:solid;
+    padding-left: 30%;
+    
+    
+    
+}
+.fondo{
+    background-color: bisque;
+}
+.resultado{
+    background-color: yellow;
+    font-style:italic;
+}
+
+

@@ -1,0 +1,75 @@
+#Cabecera{
+    background-color: #6c62f1;
+    text-align: center;
+    background: linear-gradient(#8D9420,#2C9420,#209490);
+}
+.titulo{
+    background-color: red;
+    text-align: center;
+    width: 35%;
+    margin: 15px auto;   
+    font-size:4em;   
+    font-family: 'consolas',monospace; 
+    font-style: oblique;
+    -webkit-animation: random 5s infinite;
+    animation: random 5s infinite;
+}
+@keyframes random{
+    33% {background-color: #4C2094;}
+    70% {background-color: #942090;}
+    90% {background-color: #942066;}
+}
+.barra_navegacion{
+    border: red solid 2px;
+    background-color: #947f20;
+    margin-top: 2px;
+    color:aliceblue;
+    text-align: center;
+    list-style: none;
+     
+}
+.span li{
+    display: inline;
+    padding: 10px ;
+}
+.a{
+    color: white;
+}
+.prueba{
+    border: #6c62f1 solid 3px;
+}
+.barralateral{
+    border: red solid 2px;
+    float: left;
+    height: 1678px;
+    padding: right 18px; ;
+}
+.principal{
+    margin-left: 78px;
+    border: #209492 2px;
+    padding-left: 100px;
+
+}
+.piepagina{
+    border: red solid 2px;
+    clear: both;
+    padding-left: 100px;
+    
+}
+
+.tabla1{
+    width: 100%;
+    margin-top: 15px;
+
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: yellowgreen;
+    color: white;
+}
+td{
+    text-align: center;
+}
